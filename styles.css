@@ -67,10 +67,12 @@ html {
     color: #2f4f4f;
     text-decoration: none;
     display: inline-block;
+    display: block;
+    padding: 10px 0 10px 20px;
   }
   
   .nav-list {
-    padding: 10px 0 10px 20px;
+    padding: 0;
     border-top: solid;
     border-width: 1.85px;
     color: #a9a9a9;
@@ -80,13 +82,14 @@ html {
   .nav-link:hover {
     background-color: #2f4f4f;
     color: #fff;
+    border: solid 3px black;
   }
   
   .nav-list:hover {
     background-color: #2f4f4f;
     color: #fff;
   }
-  
+
   @media (max-width: 800px) {
     #navbar {
       position: fixed;
